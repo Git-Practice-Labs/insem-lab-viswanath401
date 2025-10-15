@@ -1,27 +1,30 @@
-# Lab 08: Automate a Spring Boot and React app using Jenkins for CI/CD.
+# Lab 08: Automate a Spring Boot and React App using Jenkins for CI/CD
 
 ## Objective
-Describe the objective of this lab here.
+The objective of this lab is to automate the build, test, and deployment process of a full-stack web application using Jenkins.  
+The application consists of a Spring Boot backend and a React frontend.  
+The Jenkins pipeline integrates with GitHub to continuously build, test, and simulate deployment whenever changes are pushed.
 
 ## Tools / Technologies
-List the tools and technologies required (e.g., Git, GitHub, Docker, Jenkins).
+- Jenkins
+- Git and GitHub
+- Java (JDK 17 or higher)
+- Spring Boot (Maven)
+- Node.js and npm
+- React.js
+- Docker (optional)
+- Command Line / Terminal
 
 ## Prerequisites
-Describe any prerequisites (installed software, configured accounts, etc.).
+- Jenkins is installed and running on the system.
+- Java, Maven, Node.js, and npm are installed and configured.
+- GitHub repository contains both backend and frontend source code.
+- Jenkins has access to Git and the GitHub repository.
+- Optional: Docker installed for containerized deployment.
 
 ## Steps / Commands
-1. Step one — command(s) and explanation.
-2. Step two — command(s) and explanation.
-3. Continue with numbered steps to complete the lab.
 
-## Expected Output / Result
-Describe expected outputs, screenshots to capture, or verification steps.
-
-## Deliverables (what to push)
-- `Labs/Lab08_<ShortTitle>.md` (this file, completed)
-- Any additional scripts, Dockerfiles, manifests, or screenshots placed in a folder named `Lab08_files/`
-
-## Notes / Tips
-- Add any helpful hints or troubleshooting tips here.
-- Keep commands and outputs clear for grading.
-
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/viswanath401/lab8.git
+cd lab8
